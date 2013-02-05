@@ -2108,7 +2108,7 @@ require.register("the-peoples-blocks/lib/index.js", function(module, exports, re
     return guiLayer.draw();
   };
 
-  dialImage.src = "/images/dial.png";
+  dialImage.src = "./images/dial.png";
 
   guiLayer.add(currentPower = new Kinetic.Text({
     x: dial.getX() - 12,
